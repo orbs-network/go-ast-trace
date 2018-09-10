@@ -37,7 +37,7 @@ Investigation is based on automatic logging of certain events, running the progr
 
 #### When is this useful?
 
-Debugging synchronization issues is one of the most difficult and time consuming tasks a developer can face. If your project suffers from a deadlock for example, narrowing down the exact locking operation causing the deadlock is not easy. By tracing all locking operation to log, it's possible to identify the exact lock causing the issue and the stack trace leading to it.
+Debugging synchronization issues is one of the most difficult and time consuming tasks a developer can face. If your project suffers from a deadlock for example, narrowing down the exact locking operation causing the deadlock is not easy. By tracing all locking operation to log, you can identify the exact lock causing the issue and the stack trace leading to it.
 
 #### How to add lock tracing?
 
