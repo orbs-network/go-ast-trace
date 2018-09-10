@@ -2,7 +2,7 @@
 
 > AST-Based Tracing for Go
 
-`go-ast-trace` is a tool for debugging and investigation of issues in programs written in golang.
+`go-ast-trace` is a tool for debugging and investigating issues in programs written in golang.
 
 Investigation is based on automatic logging of certain events, running the program and then analyzing the logs. The CLI tool `go-ast-trace` focuses only on the generation of logs, their analysis is out of scope.
 
