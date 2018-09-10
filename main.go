@@ -5,21 +5,20 @@ import (
 	"fmt"
 	"go/parser"
 	"go/token"
-	"runtime"
 	"go/ast"
 	"go/printer"
 	)
 
 func printUsageAndExit() {
-	fmt.Println("Usage: astrace <trace-type> <input-file>")
+	fmt.Println("Usage: go-ast-trace <trace-type> <input-files>")
 	fmt.Println("Trace Types:")
 	fmt.Println(" locks		Prints trace before and after locks of mutexes and channels")
-	runtime.Goexit()
+	os.Exit(0)
 }
 
 func printErrorAndExit(err error) {
 	fmt.Println("ERROR: ", err.Error())
-	runtime.Goexit()
+	os.Exit(1)
 }
 
 func main() {
