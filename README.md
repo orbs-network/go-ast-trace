@@ -79,8 +79,8 @@ ASTRACE 00:48:23.157758 AfterLock main.channelReadExample 3ms [examples/channel.
 
 * An event before acquiring the lock and an event after acquiring the lock.
 * Timestamp for each event (accurate to a microsecond).
-* How long did the goroutime block and wait before successfully acquiring the lock (in milliseconds).
 * The name of the function that performed this lock operation.
+* How long did the goroutime block and wait before successfully acquiring the lock (in milliseconds).
 * Compact stack trace of the call showing only file names and line numbers (call stack with last 4 callers only).
 
 &nbsp;
